@@ -39,4 +39,4 @@
 
 
 <img src="https://www.edureka.co/blog/wp-content/uploads/2016/11/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png" height='300' width='400'/>
-<img src="https://www.researchgate.net/publication/23646260/figure/tbl1/AS:667686602285063@1536200299510/Advantages-and-disadvantages-of-the-centralized-approach-Barata-2003.png" height='200' width='200'/>
+<img src="https://www.researchgate.net/profile/Luis-Ribeiro/publication/23646260/figure/tbl1/AS:667686602285063@1536200299510/Advantages-and-disadvantages-of-the-centralized-approach-Barata-2003.png" height='200' width='200'/>
