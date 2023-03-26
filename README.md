@@ -38,4 +38,4 @@
     There will be a central copy/server repository of the project somewhere programmers will 'commit' the changes to this central copy.
 
 
-<img src="https://www.edureka.co/blog/wp-content/uploads/2016/11/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png" height='200' width='200'/>
+<img src="https://www.edureka.co/blog/wp-content/uploads/2016/11/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png" height='300' width='400'/>
