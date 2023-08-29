@@ -5,6 +5,7 @@
 |  git init |   |
 |  git status |  List which files are staged, unstaged, and untracked. |
 |  git add . |   |
+|  git diff | difference between git add . and without git add .  |
 |  git restore file | <a>to restore a file</a>  |
 |  git push |  for second time push in a certain repo |
 |  git log --oneline |  to show all commit |
