@@ -1,5 +1,9 @@
 # learn-git
 
+
+working dir-----stagging dir----local repo----remote repo
+
+
 | git   | description |
 | ------------- | ------------- |
 |  git init |   |
