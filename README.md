@@ -18,6 +18,7 @@ status: red color----status: green color----local repo-----remote repo
 |  git push |  for second time push in a certain repo |
 |  git log | display the history of the previous 3 commit, latest commit will be first of the commits  |
 |  git log --oneline |  to show all commit |
+| git reset --soft HEAD^ | local repo থেকে stagging directory  তে নিয়ে আস্তে |
 |  git checkout <commit_number> |  to go a specific commit |
 |  git branch | to show the branches  |
 |  git branch dev | make a branch named dev  |
