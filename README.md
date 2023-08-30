@@ -6,7 +6,7 @@
 |  git status |  List which files are staged, unstaged, and untracked. |
 |  git add . |   |
 |  git diff | difference between git add . and without git add .  |
-|  git restore filename.extention |  git difference এর কনটেন্ট বাদ দিতে |
+|  git restore filename.extention |  git difference এর কনটেন্ট বাদ দিতে, যদি git diff এ কনটেন্ট না থাকে তাহলে কাজ করবে নাহ  |
 |  git push |  for second time push in a certain repo |
 |  git log --oneline |  to show all commit |
 |  git checkout <commit_number> |  to go a specific commit |
