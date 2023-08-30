@@ -14,6 +14,7 @@ status: red color----status: green color----local repo-----remote repo
 |  git diff | difference between git add . and without git add .  |
 |  git restore filename.extention |  git difference এর কনটেন্ট বাদ দিতে, যদি git diff এ কনটেন্ট না থাকে তাহলে কাজ করবে নাহ  |
 |  git rm --cached filename.ext | একটি file কে staging directory থেকে working directory  তে নিয়ে আস্তে এই command টি use করা হয়   |
+|  git commit -m "message" | staging directory থেকে local repo তে নিয়ে আসতে এই command টি use করা হয় |
 |  git push |  for second time push in a certain repo |
 |  git log --oneline |  to show all commit |
 |  git checkout <commit_number> |  to go a specific commit |
