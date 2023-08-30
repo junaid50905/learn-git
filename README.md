@@ -3,8 +3,8 @@
 | git   | description |
 | ------------- | ------------- |
 |  git init |   |
-|  git status |  List which files are staged, unstaged, and untracked. |
 |  git add . |   |
+|  git status |  List which files are staged, unstaged, and untracked. |
 |  git diff | difference between git add . and without git add .  |
 |  git restore filename.extention |  git difference এর কনটেন্ট বাদ দিতে, যদি git diff এ কনটেন্ট না থাকে তাহলে কাজ করবে নাহ  |
 |  git push |  for second time push in a certain repo |
