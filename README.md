@@ -20,6 +20,7 @@ status: red color----status: green color----local repo-----remote repo
 |  git log --oneline |  to show all commit |
 | git reset --soft HEAD^ | local repo থেকে stagging directory  তে নিয়ে আস্তে(last commit, তার মানে যেই commit এ HEAD আছে, last commit a joto file and folder thakbe sob back korbe ) |
 | git reset HEAD^ | local repo থেকে working directory  তে নিয়ে আস্তে (last commit, তার মানে যেই commit এ HEAD আছে, last commit a joto file and folder thakbe sob back korbe )|
+| git reset --hard HEAD^  |  all files, folder, content will be romoved those are connected with last commit |
 |  git checkout <commit_number> |  to go a specific commit |
 |  git branch | to show the branches  |
 |  git branch dev | make a branch named dev  |
