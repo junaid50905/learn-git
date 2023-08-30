@@ -11,7 +11,7 @@ status: red color----status: green color----local repo-----remote repo
 |  git init |   |
 |  git add . |   |
 |  git status |  red color: working directory, green color: staging directory |
-|  git diff | difference between git add . and without git add .  |
+|  git diff | difference between git add . and without git add . (difference between stagging dir and working dir) |
 |  git restore filename.extention |  git difference এর কনটেন্ট বাদ দিতে, যদি git diff এ কনটেন্ট না থাকে তাহলে কাজ করবে নাহ  |
 |  git rm --cached filename.ext | একটি file কে staging directory থেকে working directory  তে নিয়ে আস্তে এই command টি use করা হয়   |
 |  git commit -m "message" | staging directory থেকে local repo তে নিয়ে আসতে এই command টি use করা হয় |
