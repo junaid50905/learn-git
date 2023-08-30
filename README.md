@@ -3,6 +3,8 @@
 
 working dir-----stagging dir----local repo----remote repo
 
+status: red color----status: green color----local repo-----remote repo
+
 
 | git   | description |
 | ------------- | ------------- |
@@ -11,6 +13,7 @@ working dir-----stagging dir----local repo----remote repo
 |  git status |  red color: working directory, green color: staging directory |
 |  git diff | difference between git add . and without git add .  |
 |  git restore filename.extention |  git difference এর কনটেন্ট বাদ দিতে, যদি git diff এ কনটেন্ট না থাকে তাহলে কাজ করবে নাহ  |
+|  git rm --cached filename.ext | একটি file কে staging directory থেকে working directory  তে নিয়ে আস্তে এই command টি use করা হয়   |
 |  git push |  for second time push in a certain repo |
 |  git log --oneline |  to show all commit |
 |  git checkout <commit_number> |  to go a specific commit |
