@@ -16,6 +16,7 @@ status: red color----status: green color----local repo-----remote repo
 |  git rm --cached filename.ext | একটি file কে staging directory থেকে working directory  তে নিয়ে আস্তে এই command টি use করা হয়   |
 |  git commit -m "message" | staging directory থেকে local repo তে নিয়ে আসতে এই command টি use করা হয় |
 |  git push |  for second time push in a certain repo |
+|  git log | display the history of the previous 3 commit, latest commit will be first of the commits  |
 |  git log --oneline |  to show all commit |
 |  git checkout <commit_number> |  to go a specific commit |
 |  git branch | to show the branches  |
