@@ -31,6 +31,7 @@ status: red color----status: green color----local repo-----remote repo
 | git remote add origin HTTPS_url | to connect local repo to remote repo. origin is name. we can write anything at origin, but everyone write this |
 | git remote | to check that local repo and remote repo is connect or not. if connect show origin(name) |
 | git checkout master | last commit a pire asbo |
+| git clone https_url | to clone a project |
 |  git branch | to show the branches  |
 |  git branch dev | make a branch named dev  |
 |   |   |
