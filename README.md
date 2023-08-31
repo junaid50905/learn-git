@@ -22,6 +22,7 @@ status: red color----status: green color----local repo-----remote repo
 | git reset HEAD^ | local repo থেকে working directory  তে নিয়ে আস্তে (last commit, তার মানে যেই commit এ HEAD আছে, last commit a joto file and folder thakbe sob back korbe )|
 | git reset --hard HEAD^  |  all files, folder, content will be romoved those are connected with last commit |
 | git reset --soft HEAD~2 | last 2 commits (we can use here 2,3,...)|
+| git reset HEAD~2 | local repor to working directory last 2 commit |
 |  git checkout <commit_number> |  to go a specific commit |
 |  git branch | to show the branches  |
 |  git branch dev | make a branch named dev  |
