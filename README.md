@@ -52,7 +52,7 @@ status: red color----status: green color----local repo-----remote repo
 | git push -u origin main | - |
 
 
-| git branch  | description |
+| git branch  | ager branch a ja thakbe notun branch a o tai thakbe |
 | ------------- | ------------- |
 | git branch | to see the branch list |
 | git branch -d branch_name  | to delete an branch |
