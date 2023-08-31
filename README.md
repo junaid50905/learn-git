@@ -41,12 +41,23 @@ status: red color----status: green color----local repo-----remote repo
 | ------------- | ------------- |
 | git checkout commit_id |  last commit theke checkout er commit a back korbe. ekhon HEAD hobe checkout er commit, ekhon amra ager commits guloke dekte parbo nah, 'git checkout master' dile amra abar last commit a pire asbo |
 | git checkout master | last commit a pire asbo |
+| git checkout -b features | to create a branch (when we write the following command a new branch will be created and will be redirect to features branch) |
+| git checkout branch_name | to change the branch  |
+|git checkout - | to go to the previous branch |
 
 | git push for first time  | description |
 | ------------- | ------------- |
 | git remote add origin HTTPS_url | to connect local repo to remote repo. origin is name. we can write anything at origin, but everyone write this |
 | git branch -M main | - |
 | git push -u origin main | - |
+
+
+| git branch  | description |
+| ------------- | ------------- |
+| git branch | to see the branch list |
+| git branch -d branch_name  | to delete an branch |
+
+
 
 | git remote   | description |
 | ------------- | ------------- |
@@ -61,36 +72,6 @@ status: red color----status: green color----local repo-----remote repo
 |   |   |
 |   |   |
 |   |   |
-
-#### git checkout
-- to create a branch (when we write the following command a new branch will be created and will be redirect to features branch)
-```
-git checkout -b features
-```
-
-- to change the branch
-```
-git checkout branch_name
-```
-
-- to go to the previous branch
-```
-git checkout -
-```
-
-#### git branch
-- to see the list of all branches
-```
-git branch
-```
-
-- to delete a branch
-```
-git branch -d branch_name 
-```
-
-
-
 
 
 
