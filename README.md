@@ -19,6 +19,7 @@ status: red color----status: green color----local repo-----remote repo
 |  git log | display the history of the previous 3 commit, latest commit will be first of the commits  |
 |  git log --oneline |  to show all commit |
 |  git show | Show details of the last commit |
+|  git show commit_id | to get details of a certain commit |
 | git reset --soft HEAD^ | local repo থেকে stagging directory  তে নিয়ে আস্তে(last commit, তার মানে যেই commit এ HEAD আছে, last commit a joto file and folder thakbe sob back korbe ) |
 | git reset HEAD^ | local repo থেকে working directory  তে নিয়ে আস্তে (last commit, তার মানে যেই commit এ HEAD আছে, last commit a joto file and folder thakbe sob back korbe )|
 | git reset --hard HEAD^  |  all files, folder, content will be romoved those are connected with last commit |
