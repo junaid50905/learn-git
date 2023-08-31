@@ -41,11 +41,19 @@ status: red color----status: green color----local repo-----remote repo
 |   |   |
 |   |   |
 |   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+
+#### git checkout
+- to create a branch (when we write the following command a new branch will be created and will be redirect to features branch)
+```
+git checkout -b features
+```
+
+- to change the branch
+```
+git checkout branch_name
+```
+
+
 
 ### There are many different version control systems available. For example, 
 
