@@ -27,7 +27,7 @@ status: red color----status: green color----local repo-----remote repo
 | git reset --soft HEAD~2 | last 2 commits (we can use here 2,3,...)|
 | git reset HEAD~2 | local repor to working directory last 2 commit |
 | git reset --hard HEAD~2 | local to remove last 2 commits (NOTE: proyojon chara git reset use korbo nah, git reset er poriborte git checkout use kobo) |
-|  git checkout <commit_number> |  to go a specific commit |
+|  git checkout commit_id |  last commit theke checkout er commit a back korbe. ekhon HEAD hobe checkout er commit, ekhon amra ager commits guloke dekte parbo nah, git checkout master dile amra abar last commit a pire asbo |
 |  git branch | to show the branches  |
 |  git branch dev | make a branch named dev  |
 |   |   |
