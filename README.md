@@ -64,9 +64,10 @@ status: red color----status: green color----local repo-----remote repo
 | git remote | to check that local repo and remote repo is connect or not. if connect show origin(name) |
 
 
+
+| git clone and pull  | description |
+| ------------- | ------------- |
 | git clone https_url | to clone a project |
-|  git branch | to show the branches  |
-|  git branch dev | make a branch named dev  |
 |   |   |
 |   |   |
 |   |   |
