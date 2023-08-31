@@ -18,6 +18,9 @@ status: red color----status: green color----local repo-----remote repo
 |  git push |  for second time push in a certain repo |
 |  git log | display the history of the previous 3 commit, latest commit will be first of the commits  |
 |  git log --oneline |  to show all commit |
+
+| git show   | description |
+| ------------- | ------------- |
 |  git show | Show details of the last commit |
 |  git show commit_id | to get details of a certain commit |
 |  git show HEAD~2 | index 2 number commit er details show korbe (supose : Head->commit1, commit-id commit, commit-id-fff commit ) ekhane commit id fff show hobe karon er index 2 | 
