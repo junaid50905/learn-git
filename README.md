@@ -65,9 +65,13 @@ status: red color----status: green color----local repo-----remote repo
 
 
 
-| git clone and pull  | description |
+| git clone  | description |
 | ------------- | ------------- |
 | git clone https_url | to clone a project |
+
+
+| git pull  | description |
+| ------------- | ------------- |
 |   |   |
 |   |   |
 |   |   |
