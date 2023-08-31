@@ -16,6 +16,9 @@ status: red color----status: green color----local repo-----remote repo
 |  git rm --cached filename.ext | একটি file কে staging directory থেকে working directory  তে নিয়ে আস্তে এই command টি use করা হয়   |
 |  git commit -m "message" | staging directory থেকে local repo তে নিয়ে আসতে এই command টি use করা হয় |
 |  git push |  for second time push in a certain repo |
+
+| git log  | description |
+| ------------- | ------------- |
 |  git log | display the history of the previous 3 commit, latest commit will be first of the commits  |
 |  git log --oneline |  to show all commit |
 
@@ -24,18 +27,32 @@ status: red color----status: green color----local repo-----remote repo
 |  git show | Show details of the last commit |
 |  git show commit_id | to get details of a certain commit |
 |  git show HEAD~2 | index 2 number commit er details show korbe (supose : Head->commit1, commit-id commit, commit-id-fff commit ) ekhane commit id fff show hobe karon er index 2 | 
+
+| git reset  | description |
+| ------------- | ------------- |
 | git reset --soft HEAD^ | local repo থেকে stagging directory  তে নিয়ে আস্তে(last commit, তার মানে যেই commit এ HEAD আছে, last commit a joto file and folder thakbe sob back korbe ) |
 | git reset HEAD^ | local repo থেকে working directory  তে নিয়ে আস্তে (last commit, তার মানে যেই commit এ HEAD আছে, last commit a joto file and folder thakbe sob back korbe )|
 | git reset --hard HEAD^  |  all files, folder, content will be romoved those are connected with last commit |
 | git reset --soft HEAD~2 | last 2 commits (we can use here 2,3,...)|
 | git reset HEAD~2 | local repor to working directory last 2 commit |
 | git reset --hard HEAD~2 | local to remove last 2 commits (NOTE: proyojon chara git reset use korbo nah, git reset er poriborte git checkout use kobo) |
+
+| git checkout  | description |
+| ------------- | ------------- |
 | git checkout commit_id |  last commit theke checkout er commit a back korbe. ekhon HEAD hobe checkout er commit, ekhon amra ager commits guloke dekte parbo nah, 'git checkout master' dile amra abar last commit a pire asbo |
 | git checkout master | last commit a pire asbo |
+
+| git push for first time  | description |
+| ------------- | ------------- |
 | git remote add origin HTTPS_url | to connect local repo to remote repo. origin is name. we can write anything at origin, but everyone write this |
 | git branch -M main | - |
 | git push -u origin main | - |
+
+| git remote   | description |
+| ------------- | ------------- |
 | git remote | to check that local repo and remote repo is connect or not. if connect show origin(name) |
+
+
 | git clone https_url | to clone a project |
 |  git branch | to show the branches  |
 |  git branch dev | make a branch named dev  |
