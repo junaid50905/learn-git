@@ -72,7 +72,7 @@ status: red color----status: green color----local repo-----remote repo
 
 | git pull  | description |
 | ------------- | ------------- |
-|   |   |
+| git pull  | fetch and integrate latest changes of remote repo into current local repo (it is good practise always write the command)   |
 |   |   |
 |   |   |
 |   |   |
