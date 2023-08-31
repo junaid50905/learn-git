@@ -53,6 +53,22 @@ git checkout -b features
 git checkout branch_name
 ```
 
+#### git branch
+- to see the list of all branches
+```
+git branch
+```
+
+- to delete a branch
+```
+git branch -d branch_name 
+```
+
+
+
+
+
+
 
 
 ### There are many different version control systems available. For example, 
