@@ -53,6 +53,11 @@ git checkout -b features
 git checkout branch_name
 ```
 
+- to go to the previous branch
+```
+git checkout -
+```
+
 #### git branch
 - to see the list of all branches
 ```
